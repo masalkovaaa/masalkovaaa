@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    outline: none;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.all {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+.main_1{
+    max-width: 1920px;
+    background-color:  black;
+    padding: 40px 0;
+}
+.container_main_1{
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.main_1_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts_info{
+    width: 560px;
+    text-align: center;
+}
+.contacts_submit{
+    background:  rgb(203, 8, 171);
+    border-radius: 20px;
+    width: 170px;
+    padding: 10px 60px;
+    color: white;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.contacts_title{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contacts_inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contacts_name {
+    outline: none;
+    border-radius: 20px;
+    max-width: 350px;
+    padding: 4px 6px;
+}
+@media (max-width: 1000px){
+    .main_1{
+        max-width: 1000px;
+    }
+    .container_main_1{
+        max-width: 700px;
+    }
+    .contacts_info{
+        width: 400px;
+    }
+    .contacts_submit{
+        font-size: 14px;
+    }
+    .contacts_title{
+        font-size: 30px;
+    }
+    .img img{
+        width: 230px;
+        padding: 30px 0;
+    }
+    .contacts_inputs {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 425px){
+    .main_1{
+        max-width: 425px;
+    }
+    .container_main_1{
+        max-width: 300px;
+    }
+    .contacts_info{
+        width: 280px;
+    }
+    .contacts_submit{
+        font-size: 10px;
+    }
+    .contacts_title{
+        font-size: 20px;
+    }
+    .img img{
+        display: none;
+    }
+    .contacts_inputs {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .contacts_inputs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+    }
+}

@@ -1,0 +1,174 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+.all{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+.main_1{
+    max-width: 1920px;
+    background-color:  black;
+    padding: 30px 0;
+}
+.container_main_1{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.main_1_zag{
+    color: #d61daeec;
+    font-size: 50px;
+    font-family: Permanent Marker;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 60px;
+    letter-spacing: 48px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main_1_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+.main_1_flex_inside{
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    gap: 22px;
+}
+.img_dancestyle_1 img{
+    width: 430px;
+    height: 503px;
+}
+.name{
+    color: #d61daeec;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.experience{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 60px;
+}
+.characteristic{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 60px;
+}
+.button_choreo{
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    text-decoration-line: underline;
+    text-align: end;
+    margin-top: 40px;
+}
+
+@media (max-width: 1000px){
+    .main_1{
+        max-width: 1000px;
+    }
+    .container_main_1{
+        max-width: 700px;
+    }
+    .main_1_zag{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .main_1_flex{
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+    }
+    .main_1_flex_inside{
+        width:680px;
+    }
+    .img_dancestyle_1 img{
+        width: 430px;
+        height: 503px;
+    }
+    .img_dancestyle_1{
+        margin: 0 auto;
+    }
+    .name{
+        font-size: 20px;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+    .experience{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .characteristic{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .button_choreo{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 425px){
+    .main_1{
+        max-width: 425px;
+    }
+    .container_main_1{
+        max-width: 350px;
+    }
+    .main_1_zag{
+        font-size: 20px;
+        letter-spacing: 10px;
+    }
+    .main_1_flex{
+        gap: 20px;
+    }
+    .main_1_flex_inside{
+        width:330px;
+        gap: 15px;
+    }
+    .img_dancestyle_1 img{
+        width: 330px;
+        height: 390px;
+    }
+    .img_dancestyle_1{
+        margin: 0 auto;
+    }
+    .name{
+        font-size: 18px;
+        line-height: 40px;
+        margin-left: 0;
+    }
+    .experience{
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .characteristic{
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .button_choreo{
+        font-size: 15px;
+    }
+}

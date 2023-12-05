@@ -1,0 +1,217 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+.all{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+.main_1{
+    max-width: 1920px;
+    background-color:  black;
+    padding: 50px 0;
+}
+.container_main_1{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.main_1_zag{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-bottom: 62px;
+}
+ .grid {
+     display: grid;
+     gap: 88px 65px;
+     grid-template-rows: repeat(4, 503px);
+     grid-template-columns: repeat(3, 421px);
+ }
+ 
+ .div_dancehall {
+    background: url('../img/dancehall_all.png') no-repeat;
+ }
+ 
+ .div_highheels {
+    grid-row: span 2;
+    grid-column: span 1;
+    background: url('../img/highheels_all.png') no-repeat;
+ }
+ .div_hiphop {
+    background: url('../img/hiphop_all.png') no-repeat;
+ }
+ .div_twerk {
+    background: url('../img/twerk_all.png') no-repeat;
+ }
+ .div_latina {
+    background: url('../img/latina_all.png') no-repeat;
+ }
+ .div_reggaeton {
+    background: url('../img/reggaeton_all.png') no-repeat;
+ }
+ .div_house {
+    background: url('../img/house_all.png') no-repeat;
+ }
+ .div_strip {
+    background: url('../img/strip_all.png') no-repeat;
+ }
+ .div_choreo {
+    background: url('../img/choreo_all.png') no-repeat;
+ }
+ .div_contemp {
+    background: url('../img/contemp_all.png') no-repeat;
+    grid-row: span 2;
+    grid-column: span 1;
+ }
+ @media (max-width: 1000px){
+   .main_1{
+      max-width: 1000px;
+      padding: 0 0 30px 0;
+  }
+  .container_main_1{
+      max-width: 700px;
+  }
+  .main_1_zag{
+      font-size: 30px;
+      margin-bottom: 40px;
+  }
+   .grid {
+       display: grid;
+       gap: 88px 65px;
+       grid-template-rows: repeat(5, 350px);
+       grid-template-columns: repeat(2, 300px);
+   }
+   
+   .div_dancehall {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   
+   .div_highheels {
+      grid-row: span 1;
+      grid-column: span 1;
+      background: url('../img/highheels_2.png') no-repeat;
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_contemp {
+      border-radius: 20px;
+      background-size: 300px 350px;
+      background: url('../img/contemp__next.png') no-repeat;
+      grid-row: span 1;
+      grid-column: span 1;
+   }
+   .div_hiphop {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_twerk {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_latina {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_reggaeton {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_house {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_strip {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_choreo {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+ }
+
+ @media (max-width: 425px){
+   .main_1{
+      max-width: 425px;
+      padding: 30px 0;
+  }
+  .container_main_1{
+      max-width: 320px;
+  }
+  .main_1_zag{
+      font-size: 25px;
+      margin-bottom: 40px;
+      line-height: 30px;
+  }
+   .grid {
+       display: grid;
+       gap: 50px 45px;
+       grid-template-rows: repeat(10, 350px);
+       grid-template-columns: repeat(1, 300px);
+   }
+   
+   .div_dancehall {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   
+   .div_highheels {
+      grid-row: span 1;
+      grid-column: span 1;
+      background: url('../img/highheels_2.png') no-repeat;
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_contemp {
+      border-radius: 20px;
+      background-size: 300px 350px;
+      background: url('../img/contemp__next.png') no-repeat;
+      grid-row: span 1;
+      grid-column: span 1;
+   }
+   .div_hiphop {
+      border-radius: 20px;
+      background-size: 300px 350px;
+      align-items: center;
+   }
+   .div_twerk {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_latina {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_reggaeton {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_house {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_strip {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   .div_choreo {
+      border-radius: 20px;
+      background-size: 300px 350px;
+   }
+   
+ }
+ 

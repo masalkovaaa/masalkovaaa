@@ -1,0 +1,224 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+.all{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+.main_1{
+    max-width: 1920px;
+    background-color:  black;
+    padding: 30px 0;
+}
+.main_1_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.container_main_1{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.main_1_txt{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.main_1_flex_inside{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.main_1_zag{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 60px
+}
+.main_1_txt_zag_pink{
+    color: rgb(203, 8, 171);
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.main_1_txt_zag_black{
+    color: black;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.main_1_txt_under_zag{
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 60px;
+    width: 700px;
+}
+.main_2{
+    max-width: 1920px;
+    background-color:  #d61daeec;
+    padding: 30px 0;
+}
+
+.container_main_2{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main_1_video{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 15px;
+}
+.main_1_button_pink{
+    background:  rgb(203, 8, 171);
+    border-radius: 20px;
+    width: 300px;
+    padding: 17px 40px;
+    color: white;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main_1_button_black{
+    background:  black;
+    border-radius: 20px;
+    width: 300px;
+    padding: 17px 40px;
+    color: white;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+    .main_1{
+        max-width: 1000px;
+        padding: 15px 0;
+    }
+    .container_main_1{
+        max-width: 700px;
+        padding: 0 10px;
+    }
+    .main_1_txt{
+        gap: 20px;
+    }
+    .main_1_flex_inside{
+        flex-direction: column;
+        gap: 20px;
+        align-items: baseline;
+    }
+    .main_1_zag{
+        font-size: 30px;
+    }
+    .main_1_txt_zag_pink{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .main_1_txt_zag_black{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .main_1_txt_under_zag{
+        font-size: 20px;
+    }
+    .main_2{
+        max-width: 1000px;
+    }
+    .container_main_2{
+        max-width: 700px;
+        padding: 0 10px;
+    }
+    .main_1_video{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 425px){
+    .main_1{
+        max-width: 425px;
+    }
+    .container_main_1{
+        max-width: 300px;
+        padding: 0 10px;
+    }
+    .main_1_txt{
+        gap: 10px;
+    }
+    .main_1_flex{
+        gap: 20px;
+    }
+    .main_1_flex_inside{
+        flex-direction: column;
+        gap: 20px;
+        align-items: baseline;
+    }
+    .main_1_zag{
+        font-size: 18px;
+        line-height: 20px
+    }
+    .main_1_txt_zag_pink{
+        font-size: 15px;
+    }
+    .main_1_txt_zag_black{
+        font-size: 15px;
+    }
+    .main_1_txt_under_zag{
+        font-size: 13px;
+        width: 300px;
+        line-height: 30px;
+    }
+    .main_2{
+        max-width: 425px;
+    }
+    .container_main_2{
+        max-width: 300px;
+        padding: 0 10px;
+    }
+    .main_1_video{
+        gap: 15px;
+    }
+    .main_1_button_pink{
+        width: 200px;
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+    .main_1_button_black{
+        width: 200px;
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+    iframe{
+        width: 280px;
+        height: 150px;
+        align-items: center;
+    }
+}

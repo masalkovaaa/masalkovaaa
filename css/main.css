@@ -1,0 +1,791 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.all {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.main_1 {
+    background-image: url(../img/foto2.jpg);
+    height: 1200px;
+    padding-top: 720px;
+    max-width: 1920px;
+}
+
+.container_main_1 {
+    max-width: 935px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main_1_inside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.welcome {
+    color: white;
+    font-size: 60px;
+    font-family: Permanent Marker;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.welcome_1 {
+    color: white;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.welcome_2 {
+    color: #EB13BB;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.welcome_3 {
+    color: white;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.main_2 {
+    max-width: 1920px;
+    background-color: #d61daeec;
+    padding: 70px 0;
+}
+
+.container_main_2 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.styles_zag, .branches_zag {
+    color: black;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+}
+
+.styles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.styles_white {
+    color: white;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.styles_black {
+    color: black;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.wrapper_test {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images_1 {
+    width: 400px;
+}
+
+.images_2 {
+    width: 400px;
+}
+
+.img_test {
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+
+.img_test3 {
+    position: relative;
+    left: 340px;
+    top: 10px;
+}
+
+.img_test4 {
+    position: relative;
+    left: 300px;
+    top: 40px;
+}
+
+.img_test1 {
+    position: relative;
+    top: 30px;
+    left: 120px;
+}
+
+.img_test2 {
+    position: relative;
+    top: 10px;
+    right: 150px;
+}
+
+.img_test5 {
+    position: relative;
+    top: 10px;
+}
+
+.main_3 {
+    max-width: 1920px;
+    background-color: black;
+    padding: 65px 0;
+}
+
+.container_main_3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.price_zag {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 60px;
+    margin-top: 30px;
+}
+
+.line {
+    max-width: 1200px;
+    height: 1px;
+    background-color: white;
+}
+
+.button_main_3 {
+    color: white;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #d00aaf;
+    border-radius: 20px;
+    width: 280px;
+    padding: 16px 50px;
+    margin: 0 auto;
+    margin-top: 71px;
+    text-align: center;
+}
+
+.txt_under_button_main_3 {
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 15.40px;
+    width: 545px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+.main_4 {
+    max-width: 1920px;
+    background-color: #d61daeec;
+    padding: 44px 0;
+}
+
+.container_main_4 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.studios {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.neon_studio_zag {
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24.60px;
+}
+
+.img_neon_studio img {
+    margin-top: 18px;
+    width: 300px;
+}
+
+.adress_neon_studio {
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24.60px;
+    margin-top: 72px;
+}
+
+.info_neon_studio {
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24.60px;
+    width: 420px;
+    margin-top: 5px;
+}
+
+.button_main_1 {
+    width: 190px;
+    height: 54px;
+    border-radius: 30px;
+    border: 2px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons_main_1 {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.button_txt a{
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 880;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main_5 {
+    max-width: 1920px;
+    background-color: black;
+    padding: 68px 0;
+}
+
+.container_main_5 {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.neon_media_zag {
+    color: white;
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+}
+
+.swiper {
+    width: 1000px;
+    height: 600px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    width: 1000px;
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+@media (max-width: 1440px) {
+    .wrapper_test {
+        justify-content: center;
+    }
+
+    .images_1 {
+        display: none;
+    }
+
+    .images_2 {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main_1 {
+        height: 700px;
+        padding-top: 400px;
+        max-width: 1000px;
+    }
+
+    .container_main_1 {
+        max-width: 700px;
+    }
+
+    .main_1_inside {
+        gap: 15px;
+    }
+
+    .welcome {
+        font-size: 45px;
+        font-weight: 900;
+        line-height: 30px;
+    }
+
+    .welcome_1 {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .welcome_2 {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .welcome_3 {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .main_2 {
+        max-width: 1000px;
+    }
+
+    .container_main_2 {
+        max-width: 700px;
+    }
+
+    .styles_zag, .branches_zag {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 30px;
+    }
+
+    .styles_white {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .styles_black {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .main_3 {
+        max-width: 1000px;
+    }
+
+    .container_main_3 {
+        max-width: 700px;
+    }
+
+    .price_zag {
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 30px;
+    }
+
+    .price {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .line {
+        max-width: 700px;
+    }
+
+    .button_main_3 {
+        font-size: 10px;
+        width: 200px;
+        padding: 8px 25px;
+        margin-top: 30px;
+    }
+
+    .txt_under_button_main_3 {
+        font-size: 10px;
+        line-height: 8px;
+        width: 250px;
+    }
+
+    .main_4 {
+        max-width: 1000px;
+    }
+
+    .container_main_4 {
+        max-width: 950px;
+    }
+
+    .studios {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .neon_studio_zag {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .img_neon_studio {
+        width: 200px;
+    }
+
+    .adress_neon_studio {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .info_neon_studio {
+        font-size: 13px;
+        line-height: 20px;
+        width: 300px;
+    }
+
+    .button_main_1 {
+        width: 100px;
+        height: 40px;
+        gap: 5px;
+        background-color: white;
+        justify-content: center;
+    }
+
+    .buttons_main_1 {
+        gap: 30px;
+    }
+
+    .button_txt {
+        font-size: 12px;
+        color: #d61daeec;
+        text-align: center;
+    }
+
+    .button_tg, .button_wa {
+        display: none;
+    }
+
+    .price_num {
+        width: 120px;
+    }
+
+    .main_5 {
+        max-width: 1000px;
+        padding: 30px 0;
+        background-image: url(../img/neon_media.png);
+        background-size: 1000px 600px;
+        height: 600px;
+    }
+
+    .container_main_5 {
+        max-width: 300px;
+    }
+
+    .neon_media_zag {
+        display: none;
+    }
+
+    .swiper {
+        display: none;
+    }
+
+    .swiper-slide {
+        display: none;
+    }
+
+    .swiper-slide img {
+        display: none;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .main_1 {
+        height: 700px;
+        padding-top: 300px;
+        max-width: 425px;
+    }
+
+    .container_main_1 {
+        max-width: 300px;
+    }
+
+    .main_1_inside {
+        gap: 15px;
+    }
+
+    .welcome {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 30px;
+    }
+
+    .welcome_1 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .welcome_2 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .welcome_3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .main_2 {
+        max-width: 425px;
+    }
+
+    .container_main_2 {
+        max-width: 300px;
+    }
+
+    .wrapper_test {
+        justify-content: center;
+    }
+
+    .images_1 {
+        display: none;
+    }
+
+    .images_2 {
+        display: none;
+    }
+
+    .img_test {
+        display: none;
+    }
+
+    .img_test3 {
+        display: none;
+    }
+
+    .img_test4 {
+        display: none;
+    }
+
+    .img_test1 {
+        display: none;
+    }
+
+    .img_test2 {
+        display: none;
+    }
+
+    .img_test5 {
+        display: none;
+    }
+
+    .styles_zag, .branches_zag {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 30px;
+    }
+
+    .styles_white {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .styles_black {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .main_3 {
+        max-width: 425px;
+    }
+
+    .container_main_3 {
+        max-width: 300px;
+    }
+
+    .price_zag {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 30px;
+    }
+
+    .price {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .line {
+        max-width: 300px;
+    }
+
+    .button_main_3 {
+        font-size: 10px;
+        width: 200px;
+        padding: 8px 25px;
+        margin-top: 30px;
+    }
+
+    .txt_under_button_main_3 {
+        font-size: 10px;
+        line-height: 8px;
+        width: 250px;
+    }
+
+    .main_4 {
+        max-width: 425px;
+    }
+
+    .container_main_4 {
+        max-width: 320px;
+    }
+
+    .studios {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .neon_studio_zag {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .img_neon_studio {
+        width: 300px;
+    }
+
+    .adress_neon_studio {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .info_neon_studio {
+        font-size: 13px;
+        line-height: 20px;
+        width: 300px;
+    }
+
+    .button_main_1 {
+        width: 100px;
+        height: 40px;
+        gap: 5px;
+        background-color: white;
+        justify-content: center;
+    }
+
+    .buttons_main_1 {
+        gap: 30px;
+    }
+
+    .button_txt a {
+        font-size: 12px;
+        color: #d61daeec;
+        text-align: center;
+    }
+
+    .button_tg, .button_wa {
+        display: none;
+    }
+
+    .price_num {
+        width: 80px;
+    }
+
+    .main_5 {
+        max-width: 425px;
+        padding: 30px 0;
+        background-image: url(../img/neon_media.png);
+        background-size: 425px 300px;
+        height: 300px;
+    }
+
+    .container_main_5 {
+        max-width: 300px;
+    }
+
+    .neon_media_zag {
+        display: none;
+    }
+
+    .swiper {
+        display: none;
+    }
+
+    .swiper-slide {
+        display: none;
+    }
+
+    .swiper-slide img {
+        display: none;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+
+}

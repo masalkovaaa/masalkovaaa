@@ -1,0 +1,125 @@
+
+
+.body--no-scroll {
+    overflow: hidden;
+}
+
+.hidden-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    top: 100px;
+    left: -105%;
+    transition: 0.3s linear;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+
+.hidden-menu a.nav__link {
+    width: 100vw;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.375rem;
+    font-weight: 800;
+    padding: 0 30px;
+    transition: 0.3s ease-out;
+}
+
+.hidden-menu a.nav__link:hover {
+    transform: translateX(10px);
+}
+
+.hidden-menu li {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    transition: background-color 0.3s ease-in-out, color 0.2s ease;
+}
+
+.hidden-menu li:hover {
+    background-color: rgb(203, 8, 171);
+    color: black;
+}
+
+.hidden-menu-ticker {
+    display: none;
+}
+
+.btn-menu {
+    display: none;
+
+    padding: 2px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    z-index: 3;
+    width: 30px;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+
+.btn-menu span {
+    display: block;
+    height: 3px;
+    background-color: white;
+    margin: 7px 0 0;
+    transition: all 0.2s ease-out;
+    position: relative;
+}
+
+.btn-menu span.first {
+    margin-top: 0;
+}
+
+.hidden-menu-ticker:checked~.hidden-menu {
+    left: 0;
+}
+
+.hidden-menu-ticker:checked~.btn-menu span.first {
+    -webkit-transform: rotate(45deg);
+    top: 10px;
+}
+
+.hidden-menu-ticker:checked~.btn-menu span.second {
+    opacity: 0;
+}
+
+.hidden-menu-ticker:checked~.btn-menu span.third {
+    -webkit-transform: rotate(-45deg);
+    top: -10px;
+}
+
+
+.button--burger {
+    margin-top: 15px;
+    margin-left: 10px;
+    transition: 0.3s ease-out
+}
+
+.button--burger:hover {
+    transform: scale(1.05);
+}
+
+
+@media only screen and (max-width: 1120px) {
+    .btn-menu {
+        display: block;
+        visibility: visible;
+    }
+
+    .header_inside > nav, .header_inside > .social_media, .header_inside > .button {
+        visibility: hidden;
+        display: none;
+    }
+}
