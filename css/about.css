@@ -127,18 +127,18 @@ html, body{
     }
     .container_main_1{
         max-width: 350px;
-        padding: 20px;
+        padding: 10px;
     }
     .main_1_zag{
         width: 300px;
         margin-bottom: 20px;
     }
     .main_1_zag_pink{
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 22px;
+        line-height: 20px;
     }
     .main_1_zag_white{
-        font-size: 18px;
+        font-size: 22px;
         line-height: 30px;
     }
     .main_1_flex_inside{
