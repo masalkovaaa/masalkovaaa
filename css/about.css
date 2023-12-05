@@ -160,5 +160,6 @@ html, body{
     }
     .img_about img{
         width: 330px;
+        margin: 0 auto;
     }
 }
