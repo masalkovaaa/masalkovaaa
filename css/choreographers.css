@@ -178,8 +178,8 @@ html, body{
    }
    .div_contemp {
       border-radius: 20px;
-      background-size: 300px 350px;
       background: url('../img/contemp__next.png') no-repeat;
+       background-size: 300px 350px;
       grid-row: span 1;
       grid-column: span 1;
    }
