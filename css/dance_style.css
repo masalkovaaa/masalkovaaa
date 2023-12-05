@@ -133,12 +133,13 @@ html, body{
 @media (max-width: 425px){
     .main_1{
         max-width: 425px;
+        padding: 15px  0;
     }
     .container_main_1{
         max-width: 350px;
     }
     .main_1_zag{
-        font-size: 20px;
+        font-size: 25px;
         letter-spacing: 10px;
     }
     .main_1_flex{
