@@ -9,6 +9,9 @@ html, body{
     font-family: 'Permanent Marker', cursive;
 }
 .header{
+    position: relative;
+    z-index: 66;
+
     max-width: 1920px;
     background-color: black;
     padding: 10px 0px;
