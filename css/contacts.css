@@ -99,9 +99,9 @@ html, body {
         margin-bottom: 40px;
     }
 }
-@media (max-width: 425px){
+@media (max-width: 430px){
     .main_1{
-        max-width: 425px;
+        max-width: 430px;
         padding: 150px  20px;
     }
     .container_main_1{

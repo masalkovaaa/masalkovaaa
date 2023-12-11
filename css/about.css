@@ -120,9 +120,9 @@ html, body{
         width: 680px;
     }
 }
-@media (max-width: 425px){
+@media (max-width: 430px){
     .main_1{
-        max-width: 425px;
+        max-width: 430px;
         padding: 5px 0 20px 0;
     }
     .container_main_1{
@@ -159,7 +159,9 @@ html, body{
         line-height: 30px;
     }
     .img_about img{
-        width: 330px;
+        width: 320px;
+    }
+    .img_about{
         margin: 0 auto;
     }
 }

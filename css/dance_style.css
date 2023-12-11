@@ -130,9 +130,9 @@ html, body{
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 430px){
     .main_1{
-        max-width: 425px;
+        max-width: 430px;
         padding: 15px  0;
     }
     .container_main_1{

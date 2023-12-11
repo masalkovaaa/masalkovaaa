@@ -555,11 +555,11 @@ html, body {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .main_1 {
         height: 700px;
         padding-top: 300px;
-        max-width: 425px;
+        max-width: 430px;
     }
 
     .container_main_1 {
