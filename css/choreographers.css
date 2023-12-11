@@ -89,8 +89,6 @@ html, body{
       margin-bottom: 40px;
   }
    .grid {
-       display: grid;
-       gap: 88px 65px;
        grid-template-rows: repeat(5, 350px);
        grid-template-columns: repeat(2, 300px);
    }
