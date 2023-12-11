@@ -36,7 +36,7 @@ html, body{
 }
  .grid {
      display: grid;
-     gap: 88px 65px;
+     gap: 88px 79px;
      grid-template-rows: repeat(4, 503px);
      grid-template-columns: repeat(3, 421px);
  }
@@ -109,10 +109,10 @@ html, body{
    }
    .div_contemp {
       border-radius: 20px;
-      background-size: 300px 350px;
       background: url('../img/contemp__next.png') no-repeat;
       grid-row: span 1;
       grid-column: span 1;
+       background-size: 300px 350px;
    }
    .div_hiphop {
       border-radius: 20px;
